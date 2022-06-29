@@ -11,3 +11,6 @@ GET => /rocku/:index: => give you the word at position :index: in rockyou.txt
 GET => /rocku/?start=:nb1:&end=:nb2: : give you a custom wordlist from a range between start and end parameters
 
 GET => /rocku/:nb:/lines : give you a custom wordlist from the start to nb line
+
+-----------
+You should have rockyou.txt at root directory, this file is not included in this repo 
